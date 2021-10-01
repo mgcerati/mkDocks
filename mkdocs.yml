@@ -1,0 +1,77 @@
+site_name: PPI Docs
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github-alt
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+site_author: Martin Cerati
+
+edit_uri: ""
+
+
+repo_url: https://github.com/Moreanco/ppi-api-library
+repo_name: ppi/ppi-api-library
+
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/PPersonal/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/pportfolio
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/PortfolioPersonal
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/portfoliopersonal
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/portfoliopersonalinversiones
+    - icon: fontawesome/brands/spotify
+      link: https://open.spotify.com/show/3aRKaHvbA32pNU2mi3zDEo?si=Ymlw3e-BTMyxc92aJF27kw 
+      
+
+copyright: Portfolio Personal Inversiones | Copyright 2021
+
+nav:
+  - Inicio: index.md
+  - Primeros pasos: 
+    - Creacion de credenciales: primerosPasos/credenciales.md
+  - Productos API:
+    - WebSocket:
+      - Conexion - WebSocket: api/conexionesWebSocket.md
+      - Stream - WebSocket: api/streamWebSocket.md
+    - REST:
+      - API REST : api/rest.md
+  - Contacto: contacto.md
+  - FAQ: faq.md
+
+
+
+
+
+
